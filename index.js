@@ -17,7 +17,7 @@ function distanceFromHqInFeet(blockNumber) {
 }
 
 function distanceTravelledInFeet(origin, destination) {
-  return caclulateVertical(origin, destination)
+  return ((destination - origin)* 264)
 }
 
 function calculatesFarePrice() {
