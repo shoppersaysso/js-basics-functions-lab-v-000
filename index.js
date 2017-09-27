@@ -1,5 +1,5 @@
-function calculateVertical(origin, destination) {
-  return ((destination - origin)* 264)
+function calculateVertical(start, destination) {
+  return ((destination - start)* 264)
 }
 
 function distanceFromHqInBlocks(blockNumber) {
@@ -16,11 +16,11 @@ function distanceFromHqInFeet(blockNumber) {
 
 }
 
-function distanceTravelledInFeet(origin, destination) {
-  return Math.abs(((destination - origin)* 264))
+function distanceTravelledInFeet(start, destination) {
+  return Math.abs(calculateVertical)
 }
 
 
 function calculatesFarePrice(start, destination) {
-
+  if distanceTravelledInFeet(start)
 }
