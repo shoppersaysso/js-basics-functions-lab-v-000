@@ -1,5 +1,5 @@
 function calculateVertical(num1, num2) {
-  return ((num1 * num2) *4)
+  return ((num1 - num2) *4)
 }
 
 
