@@ -1,10 +1,11 @@
-function distanceFromHqInBlocks(43) {
-
+function distanceFromHqInBlocks(num) {
+  const block = 43
+  return num / block
 }
 
 function distanceFromHqInFeet() {
   distanceFromHqInBlocks();
-  
+
 }
 
 function distanceTravelledInFeet() {
