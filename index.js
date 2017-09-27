@@ -1,6 +1,6 @@
 function distanceFromHqInBlocks(num) {
   const block = 43
-  let distance = num / block
+  return num / block
 }
 
 function distanceFromHqInFeet() {
