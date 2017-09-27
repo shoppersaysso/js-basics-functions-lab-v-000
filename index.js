@@ -1,5 +1,5 @@
-function calculateVertical(num1, num2) {
-  return ((num2 - num1)* 264)
+function calculateVertical(origin, destination) {
+  return ((destination - origin)* 264)
 }
 
 
