@@ -2,11 +2,14 @@ function calculateVertical(origin, destination) {
   return ((destination - origin)* 264)
 }
 
-
-function distanceFromHqInBlocks(num) {
-  const block = 43
-  return num / block
+function distanceFromHqInBlocks (blockNumber) {
+  if (blockNumber > 42) {
+    return blockNumber - 42;
+  } else {
+    return 42 - blockNumber;
+  }
 }
+
 
 function distanceFromHqInFeet() {
   distanceFromHqInBlocks();
