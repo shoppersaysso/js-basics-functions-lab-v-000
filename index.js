@@ -17,7 +17,7 @@ function distanceFromHqInFeet(blockNumber) {
 }
 
 function distanceTravelledInFeet(start, destination) {
-  return Math.abs(calculateVertical(destination - start))
+  return Math.abs(calculateVertical(destination, start))
 }
 
 
